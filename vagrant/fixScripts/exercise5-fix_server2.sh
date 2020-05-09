@@ -1,2 +1,42 @@
 #!/bin/bash
 #add fix to exercise5-server2 here
+echo "Host *
+    StrictHostKeyChecking no" >> /home/vagrant/.ssh/config
+
+    #!/bin/bash
+#add fix to exercise5-server1 here
+echo "Host *
+    StrictHostKeyChecking no" >> /home/vagrant/.ssh/config
+
+echo "-----BEGIN RSA PRIVATE KEY-----
+MIIEowIBAAKCAQEAtb55yiz/XWJLj9DYm7s7K+s0uH0+NsB7sGHMlsgrVnyGXJPT
+UK9ZNIaH7AmyxvE6easlzCNE00BL6nJ30qMY19bPrrqj6fng5nG/pblG/3LvpeuZ
+J9FOzfp4DeMVqB14ZAXHEhYhy1Yg1QdT8GJFNz/twdc8LjGXFxydKzfPk8MXG3JF
+rqQ6ZcRBxSHH0K79O0t6K2o7d9A4kp3YTYa/RCqq5yJrvbCgrSeMp0tn5UQusGer
+wnKoaP5As7FScMzdCbNHphCF8lpuEQbmA7zWyGqJc9awEJzxe8OYaM3biSqNU90K
+IZof/KuZJXDo6qw/C0G/v8vxWgF1FeV/XFoqIwIDAQABAoIBAQCnATbs31hxOWfx
+6ZmB0RTYkLPLa9sFeO6v786OJ7YbLSZSX8xochjouU6hSXAse3KeZvS+lxIhhQ29
+jB4rQpALlmsVRpBk6qcNWy0eXhitl7I7pzj/a8icYjJ7oFZAO4RrdRuutQOs06Ir
+3yX02Hh+ApK58sxsLkmGhVavZgOq5KggsuYSnCImt+RmDT7rq9aSOuCHQNZquf2E
+/u5yVXmc86LFaRpPvfnaUcWkgY0SL79vgZtA6hRHD/9DvDwcrZfJLASRNmnnydNh
+mpQes6fXr9sexBq/f2ZTs3bUF5ucMBP90dWIzapTNfXHValp9eIOliW83LMn/F4s
+cXmgsNtxAoGBANnYeqp9VJhmyBCy+su14RuApRKSOc/TF6fX6XwrW1XaQZtlsxZL
+mOLL8XMgjRDe96Px5+ltAn0XOP8FVvkPaFS6Tcr+Izexxn4yCHRTxt8YipdGerZB
+50szVr2HjreKtqGzbRqsuK5vuK0ggaJDAod0Eq0UxlYOH26DRJTfUKF/AoGBANWT
+UGewulHR2TXQsHkWPnZrCnFq4dJxBPH2CYaLQMtRyzQCGlMe/oKG4Wd4aavqva2U
+Wc/gASwSPB6ybW2RikMGbPg+FTv2v6yW8v5E2Lxa7w8UtzP4cdSwojO3xctp7SXd
+cF8o9lhJrB9j/xyfjh63YS59iyMTtFyF9levkgFdAoGAcCwKLdPPRZJXHlIq1c5X
+lWPOnBtzbVIS8jg5X9irdS+nbK8XYjmXBeFh+JggSzmkZmTft9CL4YGdtaM4P5Lx
+c/9io03tMHZ38O8ub0fcNXBbnL2L3mFdCdnrpjgxAs2IcQcE/SFHD3szquH8HmNG
+4ByiqUDzR8iJ4svw+n9q810CgYB9GqatpmrthIO8rzrAIxSBnx/l4drXv1ZLOXjI
+9AcHUik6lMTAzdX9tW6Rgoo7puxmohCd4LQvEZtfy9qnpOodasUoAI3FqzsJqP47
+jS573rRL3DGYYr6i/Lh2nP5isfC1DmpFg6QRgU4usQ99v8SrH3Xwmp+G84Lh86Ki
+KHjZDQKBgGlmC2jDpI+XiQQN1SLdr8Mq6AlGcbKB14MnwEAov5zrikDhYfNwCpkj
+ihPmxMBKgSTLBQIJwCyadthzK3Bcdp1cq1Hz/5A8RdmaByoTghcwara1NUpm1wgU
+hpuK5eN53bemJ/swcW3aAwMX+xHWZupBn3eggEJIC5Mi5mIv4Ii5
+-----END RSA PRIVATE KEY-----" > /home/vagrant/.ssh/id_rsa
+
+echo "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQC1vnnKLP9dYkuP0Nibuzsr6zS4fT42wHuwYcyWyCtWfIZck9NQr1k0hofsCbLG8Tp5qyXMI0TTQEvqcnfSoxjX1s+uuqPp+eDmcb+luUb/cu+l65kn0U7N+ngN4xWoHXhkBccSFiHLViDVB1PwYkU3P+3B1zwuMZcXHJ0rN8+TwxcbckWupDplxEHFIcfQrv07S3orajt30DiSndhNhr9EKqrnImu9sKCtJ4ynS2flRC6wZ6vCcqho/kCzsVJwzN0Js0emEIXyWm4RBuYDvNbIaolz1rAQnPF7w5hozduJKo1T3Qohmh/8q5klcOjqrD8LQb+/y/FaAXUV5X9cWioj vagrant@server2" > /home/vagrant/.ssh/id_rsa.pub
+
+echo "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQC1vnnKLP9dYkuP0Nibuzsr6zS4fT42wHuwYcyWyCtWfIZck9NQr1k0hofsCbLG8Tp5qyXMI0TTQEvqcnfSoxjX1s+uuqPp+eDmcb+luUb/cu+l65kn0U7N+ngN4xWoHXhkBccSFiHLViDVB1PwYkU3P+3B1zwuMZcXHJ0rN8+TwxcbckWupDplxEHFIcfQrv07S3orajt30DiSndhNhr9EKqrnImu9sKCtJ4ynS2flRC6wZ6vCcqho/kCzsVJwzN0Js0emEIXyWm4RBuYDvNbIaolz1rAQnPF7w5hozduJKo1T3Qohmh/8q5klcOjqrD8LQb+/y/FaAXUV5X9cWioj vagrant@server1" >> /home/vagrant/.ssh/authorized_keys
+
