@@ -3,11 +3,6 @@
 echo "Host *
     StrictHostKeyChecking no" >> /home/vagrant/.ssh/config
 
-    #!/bin/bash
-#add fix to exercise5-server1 here
-echo "Host *
-    StrictHostKeyChecking no" >> /home/vagrant/.ssh/config
-
 echo "-----BEGIN RSA PRIVATE KEY-----
 MIIEowIBAAKCAQEAtb55yiz/XWJLj9DYm7s7K+s0uH0+NsB7sGHMlsgrVnyGXJPT
 UK9ZNIaH7AmyxvE6easlzCNE00BL6nJ30qMY19bPrrqj6fng5nG/pblG/3LvpeuZ
